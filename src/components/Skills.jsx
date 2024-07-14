@@ -3,20 +3,20 @@ import "aos/dist/aos.css";
 import Aos from "aos";
 
 const skills = [
-  { name: "HTML", icon: "../../public/svg/html.svg" },
-  { name: "CSS", icon: "../../public/svg/css.svg" },
-  { name: "Javascript", icon: "../../public/svg/javascript.svg" },
-  { name: "React", icon: "../../public/svg/react.svg" },
-  { name: "Tailwind", icon: "../../public/svg/tailwind.svg" },
-  { name: "MongoDB", icon: "../../public/svg/mongoDB.svg" },
-  { name: "Git", icon: "../../public/svg/git.svg" },
-  { name: "GitHub", icon: "../../public/svg/github-mark-white.svg" },
-  { name: "Node.js", icon: "../../public/svg/nodejs-2.svg" },
+  { name: "HTML", icon: "./svg/html.svg" },
+  { name: "CSS", icon: "./svg/css.svg" },
+  { name: "Javascript", icon: "./svg/javascript.svg" },
+  { name: "React", icon: "./svg/react.svg" },
+  { name: "Tailwind", icon: "./svg/tailwind.svg" },
+  { name: "MongoDB", icon: "./svg/mongoDB.svg" },
+  { name: "Git", icon: "./svg/git.svg" },
+  { name: "GitHub", icon: "./svg/github-mark-white.svg" },
+  { name: "Node.js", icon: "./svg/nodejs-2.svg" },
   {
     name: "SQL",
-    icon: "../../public/svg/sql-database-generic-svgrepo-com.svg",
+    icon: "./svg/sql-database-generic-svgrepo-com.svg",
   },
-  { name: "Figma", icon: "../../public/svg/figma.svg" },
+  { name: "Figma", icon: "./svg/figma.svg" },
 ];
 
 const Skills = () => {
@@ -37,7 +37,7 @@ const Skills = () => {
           >
             <img
               src={skill.icon}
-              //   src="../../public/svg/adobe-xd.svg"
+              //   src="./svg/adobe-xd.svg"
               alt={`${skill.name} icon`}
               className="w-12 h-12"
             />
