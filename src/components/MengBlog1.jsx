@@ -22,17 +22,14 @@ const MengBlog1 = () => {
         </p>
         <div className=" py-4 mt-2 flex gap-7">
           <a href="https://github.com/ThanakornRakrian" target="_blank">
-            <img src="../../public/svg/github-mark.svg" alt="" width="40px" />
+            <img src="./svg/github-mark.svg" alt="" width="40px" />
           </a>
           <a
             href="https://www.linkedin.com/in/thanakorn-rakrian/"
             target="_blank"
           >
-            <img src="../../public/svg/linkedin-3.svg" alt="" width="40px" />
+            <img src="./svg/linkedin-3.svg" alt="" width="40px" />
           </a>
-        </div>
-        <div className=" font-semibold">
-          <p>rakrian.thanakorn@gmail.com</p>
         </div>
       </div>
       <div data-aos="fade-left" className=" w-3/12 flex justify-center">
